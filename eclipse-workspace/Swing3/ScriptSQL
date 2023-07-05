@@ -1,0 +1,13 @@
+create database banco;
+
+use banco;
+
+create table conta (
+agencia int,
+numero int,
+titular varchar(20),
+saldo int
+);
+
+
+select * from conta;
